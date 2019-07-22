@@ -1,0 +1,3 @@
+def stddev[T](items: Traversable[T])(implicit n: Numeric[T]): Double = {
+    math.sqrt(variance(items))
+}
